@@ -237,9 +237,7 @@ img {
 }
 
 .menu__item {
-  margin-right: 0.8333333333rem;
-  margin: 30px;
-  padding-top: 5px;
+  margin-right: 2.5rem;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -404,11 +402,12 @@ img {
 }
 
 .headline__subtitle {
-  padding: 0 26%;
+  padding: 0 6%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   line-height: 1.1;
+  margin: 24px 0;
 }
 @media screen and (max-width: 480px) {
   .headline__subtitle {
@@ -644,6 +643,10 @@ img {
   right: 0;
 }
 
+.interactive-avatar-img {
+  margin: 0 12px;
+}
+
 .delivery-form__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -852,6 +855,7 @@ img {
       flex-wrap: wrap;
   color: #FFFFFF;
   padding-top: 19px;
+  gap: 9px;
 }
 
 .form__btns {
@@ -866,18 +870,15 @@ img {
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 0.8888888889rem;
   cursor: pointer;
   border-radius: 5.5555555556rem;
   padding: 1.1666666667rem 2.2777777778rem;
+  border-radius: 5.5555555556rem;
+  font-size: 21px;
 }
 
 .btn--red:hover {
-  font-size: 0.8888888889rem;
   background: #CA1B36;
-  border-radius: 5.5555555556rem;
-  padding: 1.1666666667rem 2.2777777778rem;
-  font-size: 21px;
 }
 
 .btn-2 {
@@ -898,6 +899,9 @@ img {
       -ms-user-select: none;
           user-select: none;
   padding-right: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -953,6 +957,7 @@ img {
 .fixed-menu__item {
   margin-bottom: 0.3333333333rem;
   list-style: none;
+  margin: 0;
 }
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #E01F3D;
@@ -976,8 +981,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50px);
-          transform: translate(-50%, -50px);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .map-section {

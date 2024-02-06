@@ -28,9 +28,10 @@
 }
 
 .headline__subtitle {
-    padding: 0 26%;
+    padding: 0 6%;
     align-items: center;
     line-height: 1.1;
+    margin: 24px 0;
 
     @include phones {
         padding: 0 5%;
