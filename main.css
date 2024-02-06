@@ -1040,3 +1040,9 @@ img {
             flex-direction: column;
   }
 }
+
+.social__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
