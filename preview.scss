@@ -56,10 +56,12 @@
 
     @include tablets {
         padding: 25%;
+        margin: -46px 0;
     }
 
     @include phones {
         padding: 0 16%;
+        margin: 2px 0;
     }
 }
 
@@ -72,7 +74,6 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         text-align: center;
 

@@ -113,6 +113,11 @@
 
 .order-section {
     background: #000;
+
+    @include phones {
+        height: 138vh;
+    }
+    
 }
 
 .form__btns {

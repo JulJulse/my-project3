@@ -8,6 +8,7 @@
     @include phones {
         display: flex;
         text-align: left;
+        flex-direction: row;
     }
 }
 
